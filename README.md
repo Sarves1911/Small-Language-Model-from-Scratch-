@@ -1,5 +1,5 @@
 1. Dataset
-The tutorial uses the Tiny Stories dataset, a popular choice from a 2023 paper that explored how small language models could be while still generating coherent English. Unlike models trained on internet-scale data, Tiny Stories is a specific-task dataset intelligently curated to capture the nuances of English language, grammar, and meaning, suitable for 3-4 year old kids. GPT-4 was used to construct a large amount of these stories.
+The code uses the Tiny Stories dataset, a popular choice from a 2023 paper that explored how small language models could be while still generating coherent English. Unlike models trained on internet-scale data, Tiny Stories is a specific-task dataset intelligently curated to capture the nuances of English language, grammar, and meaning, suitable for 3-4 year old kids. GPT-4 was used to construct a large amount of these stories.
 The primary goal for the 15-million-parameter model is to learn from this dataset to:
 • Understand the structure/form of the English language, enabling it to generate grammatically correct sentences.
 • Understand meaning, allowing it to create its own stories suitable for young children.
